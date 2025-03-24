@@ -7,5 +7,5 @@ def plotly_scatter(x: np.ndarray, y: np.ndarray) -> go.Figure:
     return fig
 
 def plotly_line(x: np.ndarray, y:np.ndarray) -> go.Figure:
-    fig = px.line(x=x,y=y)
+    fig = px.line(x=x, y=y)
     return fig
